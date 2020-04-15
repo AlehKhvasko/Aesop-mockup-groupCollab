@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Gift from './components/Gifts/Gift'
+import Gift from './components/Gift'
 
 function App() {
   return (
