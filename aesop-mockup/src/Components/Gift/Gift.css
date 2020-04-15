@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+}
+.leftSide {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.leftSide_text {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+.leftSide_text > p:nth-child(1) {
+    font-size: 1.6rem;
+    font-weight: 270;
+}
+.leftSide_text > p:nth-child(2) {
+    font-size: 0.8rem;
+    font-weight: 370;
+}
+.leftSide_text > button {
+    height: 3rem;
+    width: 17rem;
+    font-size: 0.8rem;
+    font-weight: 610;
+    background-color: rgba(255, 255, 255, 0.466);
+}
+.leftSide_text > button {
+    position: relative;
+    height: 3rem;
+    width: 17rem;
+    font-size: 0.8rem;
+    font-weight: 610;
+    background-color: rgba(255, 255, 255, 0.466);
+    text-align: left;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+.leftSide_text > button::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin-left: 5%;
+    background: url('https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/7260367/300/200/m2/fpnw/wm0/gnd1z4sqlzqdhcyfkdz5lhmyivmcb0avzcu3t47qj7ohkogrlrbyvmh6stxypjak-.jpg?1573139095&s=38d97363783b2bab62df11a01417a9d4') no-repeat;
+    background-size: 35px;
+    height: 30px;
+    width: 30px;
+}
+.rightSide{
+    display: flex;
+    align-items: flex-end;
+    width: 60%;
+    height: 100%;
+}
+
+.rightSide_image {
+    width: 100%;
+    height: 70%;
+    background-image: url(../../assets/images/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

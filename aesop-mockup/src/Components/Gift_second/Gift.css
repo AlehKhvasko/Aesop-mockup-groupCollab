@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+}
+.leftSide {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.leftSide_text {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.leftSide_text > p:nth-child(1) {
+    font-size: 1.6rem;
+    font-weight: 280;
+    color: rgba(0, 0, 0, 0.568);
+}
+.leftSide_text__list > li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:10% 0 10% -25%;
+}
+.rightSide{
+    display: flex;
+    align-items: flex-end;
+    width: 60%;
+    height: 100%;
+}
+
+.rightSide_image__second {
+    width: 100%;
+    height: 70%;
+    background-image: url(../../assets/images/Store-Detail-US-Wynwood-Hero-1-Desktop-2880x1620.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
