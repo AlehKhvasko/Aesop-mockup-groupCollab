@@ -1,5 +1,4 @@
-# A Guide to Digital Design: Aesop
-
-# *Wireframing*
-
-### Web wireframes are a great way to start your design work. A wireframe is commonly used to lay out content and functionality on a page which takes into account user needs and user journeys. Wireframes can also be used to create the global and secondary navigation to ensure the terminology and structure used for the site meets user expectations. Wireframing is a critical part of the interaction design process. The aim of a wireframe is to provide a visual understanding of a page early in a project to get stakeholder and project team approval before the creative phase gets underway. It suggests the structure of a page, without using any graphics or text. A wireframe  displays site architecture visually and allows for clarification of web site elements. Wireframes are used early in the development process to establish the basic structure of a page before visual design and content are added. It pushes usability to the forefront and identifies ease of updates. Moreover, it helps make the design process iterative and saves time on the entire project.
+<p align="center">
+  <img src="./src/assets/Screen Shot 2020-04-16 at 15.21.45.png" width="350" alt="no image">
+  <img src="./src/assets/Screen Shot 2020-04-16 at 15.46.07.png" width="350" alt="no image">
+</p>
